@@ -1,5 +1,5 @@
 # Script-COIE
-Script d'Import-Export de fiche de personnage pour Chroniques Oubliées sur Roll20
+Script d'Import-Export de fiches de personnages pour Chroniques Oubliées sur Roll20
 
 Besoin d'une petite introduction ? Tout est expliqué [ici](https://raw.githack.com/coAtlas/Script-COIE/main/startCOIE.html).
 
