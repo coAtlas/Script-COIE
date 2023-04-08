@@ -6,4 +6,5 @@ Besoin d'une petite introduction ? Tout est expliqué [ici](https://raw.githack.
 Si vous voulez importer des personnages [c'est ici](https://raw.githack.com/coAtlas/Script-COIE/main/importCOIE.html).  
 Si vous voulez partager vos personnages [c'est ici](https://docs.google.com/forms/d/e/1FAIpQLSd_OrnnRsaARwNLNxHY2GITCgAGXTqucg8N3NNfcjGqyE-aSg/viewform).
 
-L'historique des version est [ici](ChangeLog.md)
+L'historique des version script est [ici](ChangeLogScript.md).  
+L'historique des version BDD est [ici](ChangeLogBDD.md).
