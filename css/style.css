@@ -1,0 +1,224 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+  
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+  
+ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+  
+ol li {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.explication {
+    width: 70%;
+    max-width: 900px;
+    min-width: 700px;
+    height: auto;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+}
+
+.titrePage{
+    width: 100%;
+    text-align: center;
+    border-top: 5px ridge #5e4b28;
+    border-bottom: 5px ridge #5e4b28;
+    background: #927352fd;
+    color: #fff;
+}
+
+.listeInfomationImport{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 5px ridge #5e4b28;
+    background: #ebded0fd;
+}
+  
+.informationImport:before {
+    content: "-";
+    display: inline-block;
+    width: 1em;
+    margin: 5px;
+}
+
+.titreExplication{
+    border-bottom: 2px dotted #333;
+}
+
+.stepbystep{
+    border: 5px ridge #5e4b28;
+    background: #ebded0fd;
+    border-radius: 4px;
+    padding: 8px 8px;
+}
+
+.container {
+    width: 70%;
+    max-width: 900px;
+    min-width: 700px;
+    height: auto;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+#json-text {
+    width: 100%;
+    height: 30px;
+    margin: 5px; 
+    resize: none;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+#copy-button {
+    margin: 5px; 
+    background: #927352fd;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.5s;
+  }
+
+#copy-button:hover {
+    background-color: #503e2bfd;;
+    transform: scale(1.05);
+  }
+
+.personnages-import {
+    width: 70%;
+    max-width: 900px;
+    min-width: 700px;
+    height: auto;
+    margin: 10px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.section-personnages {
+    width: 100%;
+    height: auto;
+    margin: 5px;    
+}
+
+.chapitre-personnages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px ridge #5e4b28;
+    background: #ebded0fd;
+    border-radius: 10px;
+    position: relative;
+    z-index: 100;
+}
+
+.chapitre-personnages h2 {
+    margin-left: 10px;
+    padding: 15px 5px;
+    font-size: 25px;
+}
+
+.chapitre-personnages img {
+    margin-right: 10px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.liste-personnages {
+    padding: 0px 15px;
+    height: 0px;
+    opacity: 0;
+}
+
+.liste-personnages p {
+    line-height: 1.5;
+}
+
+.cardPretireList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardClasseList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    cursor: pointer;
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 100px;
+    text-align: center;
+    min-height: 150px;
+    border-radius: 1rem;
+    box-shadow: 0px 3px 8px 1px rgba(61, 61, 61, 0.60);
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    z-index: 0;
+}
+
+.card:nth-child(7n+1) { 
+    margin-left: 0rem; 
+}
+
+.cardText *{
+    margin: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.buttonCharacter {
+    background-color: #8bf770;
+    width: 85px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+img{
+    padding: 4px;
+}
