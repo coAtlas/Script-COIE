@@ -183,7 +183,7 @@ ul {
 
 .cardBestiaireList {
     display: flex;
-
+    flex-wrap: wrap;
 }
 
 .card {
