@@ -181,6 +181,11 @@ ul {
     flex-wrap: wrap;
 }
 
+.cardBestiaireList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
     cursor: pointer;
     display: flex;
