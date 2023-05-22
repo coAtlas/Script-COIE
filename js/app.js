@@ -74,3 +74,7 @@ fetch("json/personnagesPretires.json")
 fetch("json/personnagesClasses.json")
     .then(response => response.json())
     .then(data => createCards(data, ".cardClasseList"));
+
+fetch("json/personnagesBestiaire.json")
+    .then(response => response.json())
+    .then(data => createCards(data, ".cardBestaireList"));

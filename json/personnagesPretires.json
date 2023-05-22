@@ -1789,8 +1789,8 @@
     "_name": "Thyleen",
     "_avatar": "https://s3.amazonaws.com/files.d20.io/images/320285063/X-ydo2AJL5c7CpIrfxl-rw/max.png?1672243360",
     "_attributes": [
-      { "_name": "scriptVersion", "_current": true, "_max": "3.10" },
-      { "_name": "version", "_current": 5.01, "_max": "" },
+      { "_name": "scriptVersion", "_current": true, "_max": "3.13" },
+      { "_name": "version", "_current": 5.02, "_max": "" },
       { "_name": "DV", "_current": "8", "_max": "" },
       { "_name": "tab", "_current": "caracteristiques", "_max": "" },
       {
@@ -2126,7 +2126,7 @@
       { "_name": "race", "_current": "Elfe haut", "_max": "" },
       { "_name": "sexe", "_current": "Femme", "_max": "" },
       { "_name": "age", "_current": "125", "_max": "" },
-      { "_name": "taille", "_current": "185", "_max": "" },
+      { "_name": "taille", "_current": "Moyen", "_max": "" },
       { "_name": "poids", "_current": "65", "_max": "" },
       {
         "_name": "CAPA_RACE",
@@ -2153,7 +2153,17 @@
       },
       { "_name": "casque_malus", "_current": "0", "_max": "" },
       { "_name": "casque_rd", "_current": "0", "_max": "" },
-      { "_name": "casque_on", "_current": 0, "_max": "" }
+      { "_name": "casque_on", "_current": 0, "_max": "" },
+      {
+        "_name": "repeating_armes_-NK3AUWdxRwMdknFlbvZ_armeportable",
+        "_current": "on",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_armes_-NKSdKaMhlI3e33WPaff_armeportable",
+        "_current": "on",
+        "_max": ""
+      }
     ],
     "_abilities": [
       {
@@ -2163,7 +2173,7 @@
       },
       {
         "_name": "Maître de la survie",
-        "_action": "!cof-jet ?{Faire un jet de |Charisme, CHA|Constitution, CON|Dextérité, DEX|Force, FOR|Intelligence, INT|Sagesse, SAG} --predicat maitreDeLaSurvie --bonus ?{Malus (si test DEX, malus armure pris en compte automatiquement) |Non, |Armure, -@{selected|defarmuremalus}|Casque, -@{selected|casque_malus}} --bonus ?{Autres bonus} --nom Maître de la survie",
+        "_action": "!cof-jet ?{Faire un jet de |Charisme, CHA|Constitution, CON|Dextérité, DEX|Force, FOR|Intelligence, INT|Sagesse, SAG} --predicat maitreDeLaSurvie --bonus ?{Autres bonus} --nom Maître de la survie",
         "_istokenaction": true
       }
     ],
