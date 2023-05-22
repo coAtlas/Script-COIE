@@ -77,4 +77,4 @@ fetch("json/personnagesClasses.json")
 
 fetch("json/personnagesBestiaire.json")
     .then(response => response.json())
-    .then(data => createCards(data, ".cardBestaireList"));
+    .then(data => createCards(data, ".cardBestiaireList"));
