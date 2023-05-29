@@ -2,6 +2,10 @@
 
 ## Base de données
 
+### 1.2.1
+
+Repositionnement de la carte aigle.
+
 ### 1.2
 
 Ajout des créatures suivantes du bestiaire : succube, destrier noir, les dinosaures, doppleganger, les dragons, drider, dryade, les élémentaires (feu, terre, eau et air), éléphant, mammouth, elfe des bois, guerrier elfe noir, guerrière elfe noir, prêtresse elfe noir et ettin.
