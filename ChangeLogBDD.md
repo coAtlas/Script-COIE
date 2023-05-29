@@ -2,6 +2,10 @@
 
 ## Base de données
 
+### 1.2
+
+Ajout des créatures suivantes du bestiaire : succube, destrier noir, les dinosaures, doppleganger, les dragons, drider, dryade, les élémentaires (feu, terre, eau et air), éléphant, mammouth, elfe des bois, guerrier elfe noir, guerrière elfe noir, prêtresse elfe noir et ettin.
+
 ### 1.1
 
 Maj de la fiche de Thyleen pour meilleur gestion de la capacité Maître de la Survie.
