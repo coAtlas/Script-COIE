@@ -1,5 +1,201 @@
 [
   {
+    "_name": "Aigle",
+    "_avatar": "https://s3.amazonaws.com/files.d20.io/images/336617933/s-DHh0CpZqcdHbZuXNuNJA/max.png?1681064925",
+    "_attributes": [
+      { "_name": "scriptVersion", "_current": true, "_max": "3.13" },
+      { "_name": "version", "_current": 5.02, "_max": "" },
+      { "_name": "type_personnage", "_current": "PNJ", "_max": "" },
+      { "_name": "tab", "_current": "carac. pnj", "_max": "" },
+      { "_name": "pnj_for", "_current": -3, "_max": "" },
+      { "_name": "pnj_init", "_current": "17", "_max": "" },
+      { "_name": "pnj_dex", "_current": 3, "_max": "" },
+      { "_name": "pnj_def", "_current": "15", "_max": "" },
+      { "_name": "pnj_con", "_current": 3, "_max": "" },
+      { "_name": "pnj_int", "_current": -4, "_max": "" },
+      { "_name": "pnj_sag", "_current": 4, "_max": "" },
+      { "_name": "pnj_cha", "_current": 0, "_max": "" },
+      { "_name": "pnj_for_sup", "_current": 0, "_max": "" },
+      { "_name": "pnj_dex_sup", "_current": "on", "_max": "" },
+      { "_name": "pnj_con_sup", "_current": 0, "_max": "" },
+      { "_name": "pnj_int_sup", "_current": 0, "_max": "" },
+      { "_name": "pnj_sag_sup", "_current": "on", "_max": "" },
+      { "_name": "pnj_cha_sup", "_current": 0, "_max": "" },
+      { "_name": "pnj_jets_caches", "_current": "/w gm ", "_max": "" },
+      { "_name": "for_sup", "_current": "@{jetnormal}", "_max": "" },
+      { "_name": "dex_sup", "_current": "@{jetsup}", "_max": "" },
+      { "_name": "con_sup", "_current": "@{jetnormal}", "_max": "" },
+      { "_name": "int_sup", "_current": "@{jetnormal}", "_max": "" },
+      { "_name": "sag_sup", "_current": "@{jetsup}", "_max": "" },
+      { "_name": "cha_sup", "_current": "@{jetnormal}", "_max": "" },
+      { "_name": "force", "_current": 4, "_max": "" },
+      { "_name": "INIT_DIV", "_current": 6, "_max": "" },
+      { "_name": "DEFDIV", "_current": 5, "_max": "" },
+      { "_name": "dexterite", "_current": 11, "_max": "" },
+      { "_name": "defense_si_attaque_risquee", "_current": 11, "_max": "" },
+      { "_name": "constitution", "_current": 16, "_max": "" },
+      { "_name": "intelligence", "_current": 2, "_max": "" },
+      { "_name": "sagesse", "_current": 18, "_max": "" },
+      { "_name": "charisme", "_current": 10, "_max": "" },
+      { "_name": "jets_caches", "_current": "/w gm ", "_max": "" },
+      {
+        "_name": "statblock",
+        "_current": "NC 1/2, taille très petite\nFOR -3 DEX +3* CON +3\nINT -4 SAG +4* CHA +0\nDEF 15 PV 2 Init 17\nSerres +3 DM 1",
+        "_max": ""
+      },
+      { "_name": "niveau", "_current": "1", "_max": "" },
+      { "_name": "taille", "_current": "Très petite", "_max": "" },
+      { "_name": "PV", "_current": 2, "_max": "2" },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armelabel",
+        "_current": 1,
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armenom",
+        "_current": "Serres",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armeatk",
+        "_current": 3,
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armedmnbde",
+        "_current": 0,
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armedmde",
+        "_current": 4,
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armedm",
+        "_current": 1,
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armespec",
+        "_current": "",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armeoptflag",
+        "_current": "0",
+        "_max": ""
+      },
+      { "_name": "max_attack_label", "_current": 1, "_max": "" },
+      { "_name": "show_script", "_current": 1, "_max": "" },
+      {
+        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actiontype",
+        "_current": "liste",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actionoptflag",
+        "_current": "off",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actiontitre",
+        "_current": "Voie des créatures volantes",
+        "_max": ""
+      },
+      { "_name": "maxrangaction", "_current": 2, "_max": "" },
+      {
+        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actionrang",
+        "_current": "2",
+        "_max": ""
+      },
+      {
+        "_name": "nomlisteaction1",
+        "_current": "Voie des créatures volantes",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actiontitre",
+        "_current": "Vol rapide",
+        "_max": ""
+      },
+      { "_name": "maxrangaction1", "_current": 1, "_max": "" },
+      {
+        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actionrang",
+        "_current": 1,
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actioncode",
+        "_current": "#Attaque 1 --bonusAttaque 5 --plus 1d6",
+        "_max": ""
+      },
+      {
+        "_name": "message_version",
+        "_current": "COFantasy version 3.13",
+        "_max": ""
+      },
+      { "_name": "race", "_current": "Aigle", "_max": "" },
+      {
+        "_name": "capacites_pnj",
+        "_current": "NB :\nEn vol : cette capacité permet de set le prédicat volant pour éviter les attaques uniquement au sol. Par défaut, la créature est en vol.",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actionoptflag",
+        "_current": "0",
+        "_max": ""
+      },
+      { "_name": "predicats_script", "_current": "animal\nvolant", "_max": "" },
+      {
+        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actiontitre",
+        "_current": "En vol",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actionrang",
+        "_current": "1",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actioncode",
+        "_current": "!cof-set-predicate volant ?{Dans les airs |Oui,true|Non, false}",
+        "_max": ""
+      },
+      {
+        "_name": "_reporder_repeating_actions",
+        "_current": "-NSeDEW2l9iRfZTghYPZ,-NQoQ-oKpeog86AFViVw",
+        "_max": ""
+      },
+      {
+        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actionoptflag",
+        "_current": "0",
+        "_max": ""
+      },
+      { "_name": "DMTEMP", "_current": "0", "_max": "" }
+    ],
+    "_abilities": [],
+    "_bio": "%3Cp%20style%3D%22text-align%3A%20justify%22%3E%3Cbr%3E%3C%2Fp%3E",
+    "_gmnotes": "%3Ch2%20style%3D%22text-align%3A%20justify%22%3EVoie%20des%20cr%C3%A9atures%20volantes%3C%2Fh2%3E%3Cp%20style%3D%22text-align%3A%20justify%22%3E%3Cb%3E1.%20Vol%20rapide%20%3A%3C%2Fb%3E%20%3Ci%3Ela%20cr%C3%A9ature%20obtient%20une%20action%20de%20mouvement%20suppl%C3%A9mentaire%20par%20tour%20lorsqu%E2%80%99elle%20est%20en%20vol.%20Au%20premier%20tour%20de%20combat%2C%20la%20cr%C3%A9ature%20obtient%20un%20bonus%20de%20%2B5%20en%20attaque%20et%20%2B1d6%20aux%20DM%20si%20elle%20est%20en%20vol%20et%20attaque%20une%20cr%C3%A9ature%20au%20sol.%3C%2Fi%3E%3C%2Fp%3E",
+    "defaultToken": {
+      "imgsrc": "https://s3.amazonaws.com/files.d20.io/images/336617933/s-DHh0CpZqcdHbZuXNuNJA/max.png?1681064925",
+      "width": 70,
+      "height": 70,
+      "layer": "objects",
+      "name": "Aigle",
+      "showname": true,
+      "light_multiplier": null,
+      "dim_light_opacity": "0.75",
+      "bar1_num_permission": "hidden",
+      "bar_location": "overlap_bottom",
+      "compact_bar": "compact",
+      "bar1_value": "2",
+      "bar1_max": "2",
+      "bar2_num_permission": "hidden",
+      "bar3_num_permission": "hidden"
+    }
+  },
+  {
     "_name": "Aigle géant",
     "_avatar": "https://s3.amazonaws.com/files.d20.io/images/336617945/D00HRTeUiN43GD3ZrRBi9Q/max.png?1681064926",
     "_attributes": [
@@ -6982,202 +7178,6 @@
       "compact_bar": "compact",
       "showname": true,
       "dim_light_opacity": "0.75"
-    }
-  },
-  {
-    "_name": "Aigle",
-    "_avatar": "https://s3.amazonaws.com/files.d20.io/images/336617933/s-DHh0CpZqcdHbZuXNuNJA/max.png?1681064925",
-    "_attributes": [
-      { "_name": "scriptVersion", "_current": true, "_max": "3.13" },
-      { "_name": "version", "_current": 5.02, "_max": "" },
-      { "_name": "type_personnage", "_current": "PNJ", "_max": "" },
-      { "_name": "tab", "_current": "carac. pnj", "_max": "" },
-      { "_name": "pnj_for", "_current": -3, "_max": "" },
-      { "_name": "pnj_init", "_current": "17", "_max": "" },
-      { "_name": "pnj_dex", "_current": 3, "_max": "" },
-      { "_name": "pnj_def", "_current": "15", "_max": "" },
-      { "_name": "pnj_con", "_current": 3, "_max": "" },
-      { "_name": "pnj_int", "_current": -4, "_max": "" },
-      { "_name": "pnj_sag", "_current": 4, "_max": "" },
-      { "_name": "pnj_cha", "_current": 0, "_max": "" },
-      { "_name": "pnj_for_sup", "_current": 0, "_max": "" },
-      { "_name": "pnj_dex_sup", "_current": "on", "_max": "" },
-      { "_name": "pnj_con_sup", "_current": 0, "_max": "" },
-      { "_name": "pnj_int_sup", "_current": 0, "_max": "" },
-      { "_name": "pnj_sag_sup", "_current": "on", "_max": "" },
-      { "_name": "pnj_cha_sup", "_current": 0, "_max": "" },
-      { "_name": "pnj_jets_caches", "_current": "/w gm ", "_max": "" },
-      { "_name": "for_sup", "_current": "@{jetnormal}", "_max": "" },
-      { "_name": "dex_sup", "_current": "@{jetsup}", "_max": "" },
-      { "_name": "con_sup", "_current": "@{jetnormal}", "_max": "" },
-      { "_name": "int_sup", "_current": "@{jetnormal}", "_max": "" },
-      { "_name": "sag_sup", "_current": "@{jetsup}", "_max": "" },
-      { "_name": "cha_sup", "_current": "@{jetnormal}", "_max": "" },
-      { "_name": "force", "_current": 4, "_max": "" },
-      { "_name": "INIT_DIV", "_current": 6, "_max": "" },
-      { "_name": "DEFDIV", "_current": 5, "_max": "" },
-      { "_name": "dexterite", "_current": 11, "_max": "" },
-      { "_name": "defense_si_attaque_risquee", "_current": 11, "_max": "" },
-      { "_name": "constitution", "_current": 16, "_max": "" },
-      { "_name": "intelligence", "_current": 2, "_max": "" },
-      { "_name": "sagesse", "_current": 18, "_max": "" },
-      { "_name": "charisme", "_current": 10, "_max": "" },
-      { "_name": "jets_caches", "_current": "/w gm ", "_max": "" },
-      {
-        "_name": "statblock",
-        "_current": "NC 1/2, taille très petite\nFOR -3 DEX +3* CON +3\nINT -4 SAG +4* CHA +0\nDEF 15 PV 2 Init 17\nSerres +3 DM 1",
-        "_max": ""
-      },
-      { "_name": "niveau", "_current": "1", "_max": "" },
-      { "_name": "taille", "_current": "Très petite", "_max": "" },
-      { "_name": "PV", "_current": 2, "_max": "2" },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armelabel",
-        "_current": 1,
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armenom",
-        "_current": "Serres",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armeatk",
-        "_current": 3,
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armedmnbde",
-        "_current": 0,
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armedmde",
-        "_current": 4,
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armedm",
-        "_current": 1,
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armespec",
-        "_current": "",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_pnjatk_-NQoPKM3XvwhMpix4SXp_armeoptflag",
-        "_current": "0",
-        "_max": ""
-      },
-      { "_name": "max_attack_label", "_current": 1, "_max": "" },
-      { "_name": "show_script", "_current": 1, "_max": "" },
-      {
-        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actiontype",
-        "_current": "liste",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actionoptflag",
-        "_current": "off",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actiontitre",
-        "_current": "Voie des créatures volantes",
-        "_max": ""
-      },
-      { "_name": "maxrangaction", "_current": 2, "_max": "" },
-      {
-        "_name": "repeating_actions_-NQoQ-oKpeog86AFViVw_actionrang",
-        "_current": "2",
-        "_max": ""
-      },
-      {
-        "_name": "nomlisteaction1",
-        "_current": "Voie des créatures volantes",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actiontitre",
-        "_current": "Vol rapide",
-        "_max": ""
-      },
-      { "_name": "maxrangaction1", "_current": 1, "_max": "" },
-      {
-        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actionrang",
-        "_current": 1,
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actioncode",
-        "_current": "#Attaque 1 --bonusAttaque 5 --plus 1d6",
-        "_max": ""
-      },
-      {
-        "_name": "message_version",
-        "_current": "COFantasy version 3.13",
-        "_max": ""
-      },
-      { "_name": "race", "_current": "Aigle", "_max": "" },
-      {
-        "_name": "capacites_pnj",
-        "_current": "NB :\nEn vol : cette capacité permet de set le prédicat volant pour éviter les attaques uniquement au sol. Par défaut, la créature est en vol.",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions1_-NQoQ7rxcjYd3BlY2pEX_actionoptflag",
-        "_current": "0",
-        "_max": ""
-      },
-      { "_name": "predicats_script", "_current": "animal\nvolant", "_max": "" },
-      {
-        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actiontitre",
-        "_current": "En vol",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actionrang",
-        "_current": "1",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actioncode",
-        "_current": "!cof-set-predicate volant ?{Dans les airs |Oui,true|Non, false}",
-        "_max": ""
-      },
-      {
-        "_name": "_reporder_repeating_actions",
-        "_current": "-NSeDEW2l9iRfZTghYPZ,-NQoQ-oKpeog86AFViVw",
-        "_max": ""
-      },
-      {
-        "_name": "repeating_actions_-NSeDEW2l9iRfZTghYPZ_actionoptflag",
-        "_current": "0",
-        "_max": ""
-      },
-      { "_name": "DMTEMP", "_current": "0", "_max": "" }
-    ],
-    "_abilities": [],
-    "_bio": "%3Cp%20style%3D%22text-align%3A%20justify%22%3E%3Cbr%3E%3C%2Fp%3E",
-    "_gmnotes": "%3Ch2%20style%3D%22text-align%3A%20justify%22%3EVoie%20des%20cr%C3%A9atures%20volantes%3C%2Fh2%3E%3Cp%20style%3D%22text-align%3A%20justify%22%3E%3Cb%3E1.%20Vol%20rapide%20%3A%3C%2Fb%3E%20%3Ci%3Ela%20cr%C3%A9ature%20obtient%20une%20action%20de%20mouvement%20suppl%C3%A9mentaire%20par%20tour%20lorsqu%E2%80%99elle%20est%20en%20vol.%20Au%20premier%20tour%20de%20combat%2C%20la%20cr%C3%A9ature%20obtient%20un%20bonus%20de%20%2B5%20en%20attaque%20et%20%2B1d6%20aux%20DM%20si%20elle%20est%20en%20vol%20et%20attaque%20une%20cr%C3%A9ature%20au%20sol.%3C%2Fi%3E%3C%2Fp%3E",
-    "defaultToken": {
-      "imgsrc": "https://s3.amazonaws.com/files.d20.io/images/336617933/s-DHh0CpZqcdHbZuXNuNJA/max.png?1681064925",
-      "width": 70,
-      "height": 70,
-      "layer": "objects",
-      "name": "Aigle",
-      "showname": true,
-      "light_multiplier": null,
-      "dim_light_opacity": "0.75",
-      "bar1_num_permission": "hidden",
-      "bar_location": "overlap_bottom",
-      "compact_bar": "compact",
-      "bar1_value": "2",
-      "bar1_max": "2",
-      "bar2_num_permission": "hidden",
-      "bar3_num_permission": "hidden"
     }
   },
   {
