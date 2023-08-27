@@ -2,6 +2,10 @@
 
 ## Base de données
 
+### 1.3
+
+Ajout des créatures suivantes du bestiaire : fantôme mineur jusqu'à pixie ensorceleur.
+
 ### 1.2.1
 
 Repositionnement de la carte aigle.
